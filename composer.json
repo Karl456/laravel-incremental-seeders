@@ -1,0 +1,27 @@
+{
+  "name": "karl456/laravel-incremental-seeders",
+  "description": "Incremental Seeders for Laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Karl Robinson",
+      "email": "karl@karl.pm"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "laravel/framework": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Karl456\\IncrementalSeeders\\": "src/"
+    }
+  },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Karl456\\IncrementalSeeders\\IncrementalSeederServiceProvider"
+            ]
+        }
+    }
+}
